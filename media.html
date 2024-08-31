@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Media Element</title>
+<link rel="stylesheet" href="index.css">
+  </head>
+  <body class="media">
+    <h2>Audio</h2>
+    <p>
+      Life without music is imperfectly complete, starting from the string's of
+      the keyboard to the lyrics of the music or songs without it there's a
+      sense that something vital is missing
+    </p>
+    <audio controls>
+      <source
+        src="./audio-sound.wav"
+        type="audio/wav"
+      />
+    </audio>
+
+    <h2>Picture</h2>
+    <picture>
+      <source
+        srcset="Toyo Large.jpg"
+        media="(min-width:1084px)"
+      />
+      <source
+        srcset="Toyo medium.jpg"
+        media="(min-width:782px)"
+      />
+      <source
+        srcset="Toyo Small.jpg"
+        media="(min-width:322px)"
+      />
+
+      <img
+        src="./Toyoo Small.jpg"
+        alt="default image"
+      />
+    </picture>
+
+    <h3>Nature</h3>
+      <p>
+        From the moment I see the sun setting, I know it's time to capture
+        another beautiful moment.While capturing, there's always joy in my heart
+      </p>
+      <img
+        src="nature.jpg"
+        alt="nature"
+      />
+
+    <h2>video</h2>
+    <p>
+      For me, baking is exercise of the hands, from mixing the dough to the
+      kneading process, while it heats up in an atmosphere of warmth to cook
+    </p>
+    <video controls>
+      <source
+        src="./20220830_095240_03.mp4"
+        type="video/mp4"
+      />
+    </video>
+  </body>
+</html>
