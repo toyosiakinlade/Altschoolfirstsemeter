@@ -100,5 +100,39 @@ table{
     justify-content: center;
     padding: 20px;
     }
+.mycontent{
+     padding: 2.5rem 3.5rem;
+    background: #fff;
+    text-align: center;
+    max-width: 300px;
+    margin: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    margin: 3rem auto;
+    border-color: #a10f69;
+}
+.myprofile{
+    padding: 2.5rem 3.5rem;
+    background: #fff;
+    text-align: center;
+    max-width: 300px;
+    margin: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    margin: 3rem auto;
+    border-color: #7e5331;
+}
+.mygoal{
+ padding: 2.5rem 3.5rem;
+    background: #fff;
+    text-align: center;
+    max-width: 300px;
+    margin: 3rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    margin: 3rem auto;
+    border-color: #92a10f;
+}
+
 
 
